@@ -6,7 +6,7 @@ const Card = ({ color, isPickColor, openModal }) => {
     openModal(true);
   };
   return (
-    <div className="card --border-bottom">
+    <div className="card --shadow">
       <div
         className="card__color"
         style={{
